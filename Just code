@@ -1,0 +1,16 @@
+def calculator():
+    print("I hate you!")
+    print("You can suck or: +, -, *, /")
+    
+    while True:
+        try:
+            input_string = input("Вводи свои цифры, дрочила: ")
+            if input_string == 'exit':
+                break
+            result = eval(input_string)
+            print("Meh: ", result)
+        except:
+            print("Why are you so stupid.")
+            
+if __name__ == "__main__":
+    calculator()
